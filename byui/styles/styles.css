@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    
   }
   nav {
     background-color: steelblue;
@@ -22,4 +23,8 @@ body {
   footer {
     background-color: steelblue;
     color: white;
+  }
+  .main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
   }
