@@ -1,11 +1,16 @@
 .banner {
-    display: inline;
     width: 100%;
-    height: 50%;
-    margin: 0 auto;
     padding: 0px;
 }
-.icons{
+.icons img{
+    padding: 0px;
+    margin: 100px;
+    display: inline;
+    width: 20%;
+    border: 25px solid rgb(59, 59, 59);
     border-radius: 50%;
-    border: 5px solid gray;
+}
+body {
+    background-color: grey;
+    margin: 0;
 }
