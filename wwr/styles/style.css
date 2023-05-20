@@ -1,20 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Wix+Madefor+Display&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
 }
 #hero-img {
     width: 100%;
 }
 nav a {
     text-align: center;
-    color: #178ca4;
+    color: #f9f7f0;
     text-decoration: none;
+    font-family: "Wix Madefor Display", "Helvetica", "sans-serif";
+    padding: 35px
 }
 nav a:hover {
     background-color: #18b7be;
@@ -35,18 +42,28 @@ main section {
 body {
     background-color: #f9f7f0;
     color: #072a40;
+    font-family: "Wix Madefor Display", "Helvetica", "sans-serif";
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #18b7be;    
     color: #f9f7f0;
 }
 .home-title {
+    font-size: 2em;
     color: #f9f7f0;
+    margin-top: 10px;
+    font-family: "Castoro Titling", "Times New Roman", "Arial";
 }
 .book, .join {
     background-color: #f9f7f0;
+    margin-top: 50px;
     color: #18b7be;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #178ca4;
@@ -59,16 +76,29 @@ header {
 .msg {
     background-color: #072a40;
     color: #f9f7f0;
+    font-family: "Wix Madefor Display", "Helvetica", sans-serif;
+    padding: 35px;
 }
 .msg h2 {
     color: #f9f7f0;
+    font-family: "Castoro Titling", "Times New Roman", "Arial";
+    margin: 0;
 }
 .msg p {
     color: #f9f7f0;
+    font-family: "Wix Madefor Display", "Helvetica", sans-serif;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #18b7be;
     color: #f9f7f0;
+    font-family: "Wix Madefor Display", "Helvetica", "sans-serif";
+    padding-top: 15px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
 }
 footer a {
     color: #f9f7f0;
@@ -80,4 +110,13 @@ footer a:hover {
 }
 footer p {
     font-size: 1.2em;
+}
+.rivers-car, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
 }
