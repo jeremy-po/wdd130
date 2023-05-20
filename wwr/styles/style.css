@@ -78,11 +78,14 @@ header {
     color: #f9f7f0;
     font-family: "Wix Madefor Display", "Helvetica", sans-serif;
     padding: 35px;
+    line-height: 1.5em;
+}
+h2 {
+    margin: 0;
 }
 .msg h2 {
     color: #f9f7f0;
     font-family: "Castoro Titling", "Times New Roman", "Arial";
-    margin: 0;
 }
 .msg p {
     color: #f9f7f0;
