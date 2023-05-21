@@ -24,8 +24,8 @@ nav a {
     padding: 35px
 }
 nav a:hover {
-    background-color: #18b7be;
-    color: #072a40;
+    background-color: #178ca4;
+    color: #f9f7f0;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
