@@ -243,7 +243,7 @@ footer p {
 
 
 
-form {
+form.contact {
     max-width: 600px;
     display: grid;
     margin: 0 auto;
