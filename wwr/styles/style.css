@@ -242,6 +242,64 @@ footer p {
 
 
 
+
+form {
+    max-width: 600px;
+    display: grid;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+label {
+    grid-column: 1;
+    justify-self: right;
+}
+  
+input {
+    grid-column: 2;
+}
+textarea {
+    grid-column: 2;
+    font: 1em sans-serif;
+    height: 100px;
+
+}
+button {
+    width: 200px;
+    background-color: #18b7be;
+    color: #f9f7f0;
+    padding: 1em;
+    border-radius: 20px;
+    font-family: "Wix Madefor Display", "Helvetica", "sans-serif";
+    justify-self: center;
+    
+}
+fieldset {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1em;
+    border: 3px #dedede solid;
+    border-radius: 25px;
+  }
+legend {
+    margin-top: 1em;
+    justify-self: center;
+}
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
