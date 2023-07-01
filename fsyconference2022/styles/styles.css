@@ -1,0 +1,239 @@
+/*   Import the fonts   */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Lora&display=swap');
+
+
+/* Root rules to apply to all aspects of the CSS */
+:root {
+
+    --primary-color: #d7cec7;
+    --secondary-color: #3d3d3d;
+    --accent1-color: #76323f;
+    --accent2-color: #c09f80;
+    --accent3-color: #3d3d3d;
+
+
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Cinzel", serif;
+    --paragraph-font: "Lora",serif;
+
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #76323f;
+    /* headlines on a white background */
+    --headline-color-on-color: #76323f;
+    /* headlines on a colored background */
+    --paragraph-color-on-white: #3d3d3d;
+    /* paragraph text on a white background */
+    --paragraph-color-on-color: #76323f;
+    /* paragraph text on a colored background */
+    --paragraph-background-color: #d7cec7;
+    --nav-link-color: #3d3d3d;
+    --nav-background-color: #d7cec7;
+    --nav-hover-link-color: #76323f;
+    --nav-hover-background-color: #c09f80;
+}
+
+/****************************************************************
+*
+* Default tag properties *
+*
+*****************************************************************/
+body {
+    font-family: var(--paragraph-font);
+    font-size: 20px;
+    color: var(--accent3-color);
+    background-color: #f1f1f1;
+
+}
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  aside {
+    position: fixed;
+    top: 200px;
+    right: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  aside ul {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  
+  aside ul li {
+    padding: 10px;
+  }
+
+
+h2,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: var(--headline-color-on-white);
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.75em;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: var(--headline-color-on-white);
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+h6 {
+    font-size: .75em;
+}
+
+#section-image img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 500px;
+    height: auto;
+}
+#section-image{
+    text-align: center;
+}
+#image-caption {
+    margin-top: 10px;
+    text-align: center;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/****************************************************************
+* *
+* default properties for all pages *
+* *
+*****************************************************************/
+#content {
+    
+    margin: 0 auto;
+}
+
+#hero-img img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo {
+    width: 180px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+main{
+    max-width: 1600px ;
+    margin: 0  auto;
+}
+
+
+/****************************************************************
+* *
+* header area properties *
+* *
+*****************************************************************/
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+    background-color: var(--nav-background-color);
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.nav-item {
+    color: var(--primary-color);
+    padding: 1em;
+}
+nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 50px;
+    text-align: center;
+  
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color);
+  }
+
+/****************************************************************
+* *
+* footer area properties *
+* *
+*****************************************************************/
+footer {
+    background-color: #3e3e3e;
+    color: var(--accent2-color);
+    font-size: 1rem;
+    padding-top: 15px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .social img {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    
+
+}
+footer a:hover {
+    color: #f9f7f0;
+    text-decoration: underline;
+}
+footer a {
+    color: #f9f7f0;
+    text-decoration: none;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    
+
+}
