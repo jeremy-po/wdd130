@@ -117,7 +117,7 @@ h6 {
 #section-image{
     text-align: center;
 }
-#image-caption {
+.image-caption {
     margin-top: 10px;
     text-align: center;
 }
