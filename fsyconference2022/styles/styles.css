@@ -48,26 +48,30 @@ body, html {
     margin: 0;
     padding: 0;
   }
-  aside {
-    position: fixed;
-    top: 200px;
-    right: 0;
+.sidenav {
     width: 200px;
-    background-color: var(--accent3-color);
-  }
+    position: fixed;
+    z-index: 1;
+    top: 180px;
+    right: 10px;
+    background: var(--accent3-color);
+    overflow-x: hidden;
+    padding: 8px 0;
+}
   
-  aside ul {
-    list-style-type: none;
-    padding: 0;
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(85, 139, 255);
+    display: block;
     
-  }
+}
   
-  aside ul li {
-    padding: 10px;
-  }
+.sidenav a:hover {
+    color: var(--nav-hover-link-color);
+}
 
-
-h2,
 h4,
 h5,
 h6 {
@@ -160,6 +164,7 @@ a {
 main{
     max-width: 1200px ;
     margin: 0  auto;
+    
 }
 
 
@@ -239,3 +244,14 @@ footer a {
     
 
 }
+
+
+
+
+
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
