@@ -49,7 +49,7 @@ body, html {
     padding: 0;
   }
 .sidenav {
-    width: 200px;
+    width: 190px;
     position: fixed;
     z-index: 1;
     top: 180px;
@@ -62,7 +62,7 @@ body, html {
 .sidenav a {
     padding: 6px 6px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(85, 139, 255);
     display: block;
     
@@ -114,14 +114,14 @@ h6 {
     font-size: .75em;
 }
 
-#section-image img{
+.section-image img{
     display: block;
     margin: 0 auto;
     padding-top: 100px;
-    width: 500px;
+    width: 50%;
     height: auto;
 }
-#section-image{
+.section-image{
     text-align: center;
 }
 .image-caption {
@@ -255,7 +255,38 @@ footer a {
 
 
 
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+@media screen and (max-width: 900px) {
+    
+  
+    .sidenav {
+      display: none;
+    }
+  
+    #content {
+      margin-right: 0;
+    }
+  
+    header {
+      grid-template-columns: auto;
+      justify-content: center;
+      padding: 10px;
+    }
+  
+    nav {
+      justify-content: center;
+      padding-right: 0;
+    }
+  
+    nav a {
+      padding: 10px;
+    }
+  
+    #hero-img img {
+      width: 100%;
+      padding-top: 30px;
+    }
   }
+  
+  
+  
+  
