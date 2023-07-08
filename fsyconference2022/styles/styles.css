@@ -211,6 +211,9 @@ nav a:hover {
 nav a:link, nav a:visited {
     color: var(--nav-hover-link-color);
   }
+nav a.active {
+    text-decoration: underline;
+  }
 
 /****************************************************************
 * *
