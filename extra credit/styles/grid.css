@@ -64,7 +64,7 @@ START grid layout extra credit
   .grid4 {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-column: 4/11;
+    grid-column: 4/11 ;
     grid-row: 3;
   
     background-color: aqua;
